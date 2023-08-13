@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    font-weight: bold;
+    text-decoration: underline; 
+  }
+  
+  .header h1 span {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  #title {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .title {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline; 
+  }
+  
+  .calltoaction {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calltoaction:hover {
+    background-color: #555;
+  }
+  
+  #projects {
+    background-color: #fff;
+    padding: 100px 0;
+  }
+  
+  .projects {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .projects-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .projects-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .projects-header h1 span {
+    color: #ff6b6b;
+  }
+  
+  .all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-item {
+    width: 30%;
+    margin-bottom: 50px;
+  }
+  
+  .project-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+  }
+  
+  #about {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .about {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .passport-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .about .calltoaction {
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about .calltoaction:hover {
+    background-color: #555;
+  }
+  
+  #contact {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+  }
+  
+  .contact {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-item {
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .contact-item i {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer h1 {
+    font-size: 24px;
+    text-decoration: underline; 
+  }
+  
+  .footer span {
+    color: #ff6b6b;
+    text-decoration: none; 
+  }
+  
+  .declaration {
+    margin-top: 20px;
+  }
+  
+  .declaration p {
+    font-size: 14px;
+  }
+  
